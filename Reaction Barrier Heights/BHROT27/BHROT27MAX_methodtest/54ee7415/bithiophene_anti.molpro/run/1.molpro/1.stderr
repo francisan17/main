@@ -1,0 +1,7 @@
+[proxy:0:0@jupyter-c-2efrancisan] HYD_pmcd_pmip_control_cmd_cb (proxy/pmip_cb.c:480): assert (!closed) failed
+[proxy:0:0@jupyter-c-2efrancisan] HYDT_dmxu_poll_wait_for_event (lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@jupyter-c-2efrancisan] main (proxy/pmip.c:127): demux engine error waiting for event
+[mpiexec@jupyter-c-2efrancisan] HYDT_bscu_wait_for_completion (lib/tools/bootstrap/utils/bscu_wait.c:109): one of the processes terminated badly; aborting
+[mpiexec@jupyter-c-2efrancisan] HYDT_bsci_wait_for_completion (lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@jupyter-c-2efrancisan] HYD_pmci_wait_for_completion (mpiexec/pmiserv_pmci.c:197): launcher returned error waiting for completion
+[mpiexec@jupyter-c-2efrancisan] main (mpiexec/mpiexec.c:247): process manager error waiting for completion

@@ -1,0 +1,167 @@
+
+ Working directory              : /home/jovyan/scratch/molpro.ha0zaXFIVQ/
+ Global scratch directory       : /home/jovyan/scratch/molpro.ha0zaXFIVQ/
+ Wavefunction directory         : /home/jovyan/wfu/
+ Main file repository           : /home/jovyan/scratch/molpro.ha0zaXFIVQ/
+
+ id        : cardiff
+
+ Nodes                nprocs
+ jupyter-c-2efrancisan    1
+ GA implementation: MPI file
+ GA implementation (serial work in mppx): MPI file
+
+ Using customized tuning parameters: mindgm=1; mindgv=20; mindgc=4; mindgr=1; noblas=0; minvec=7
+ default implementation of scratch files=df  
+
+
+ Variables initialized (1031), CPU time= 0.01 sec
+ 
+ 
+ 
+ geometry={
+ 12
+  3NH3 (cyc) (Full point group C1)
+  H -1.368356 -0.180977 -0.013169
+  H 0.842949 -1.094909 0.003968
+  H 0.528298 1.276672 0.008017
+  H -1.941415 -1.484031 -0.832875
+  H 2.256561 -0.944858 0.826735
+  H -0.321706 2.423720 0.820266
+  N -1.414869 -1.200455 -0.014850
+  N 1.748040 -0.623591 0.011230
+  N -0.333168 1.823765 0.003717
+  H 2.265911 -0.938111 -0.801018
+  H -0.309348 2.430495 -0.807547
+  H -1.952921 -1.486037 0.794944
+ }
+ basis=cc-pVTZ
+ angstrom
+ 
+ 
+ hf; mp2
+ 
+ 
+ 
+ {put,xml;noorbitals,nobasis}
+ Commands initialized (841), CPU time= 0.00 sec, 704 directives.
+ Default parameters read. Elapsed time= 0.08 sec
+
+ Checking input...
+ Passed
+1
+
+
+                                         ***  PROGRAM SYSTEM MOLPRO  ***
+                                       Copyright, TTI GmbH Stuttgart, 2015
+                                    Version 2023.1 linked Mon Jun  5 13:27:10 2023
+
+
+ **********************************************************************************************************************************
+ LABEL *                                                                                                                                                                 
+  (16 PROC) 64 bit serial version                                                        DATE: 03-Aug-23          TIME: 12:37:09  
+ **********************************************************************************************************************************
+
+ SHA1:             9738a14712571edd23541b6d7c4f3a3d766f8287
+ **********************************************************************************************************************************
+
+ Memory per process:       805 MW
+ Total memory per node:   1074 MW
+ Total GA space:           268 MW
+
+ GA preallocation disabled
+ GA check enabled
+
+ Geometry recognized as XYZ
+
+
+ Variable memory set to 805.3 MW
+
+ SETTING BASIS          =    CC-PVTZ
+
+
+ Recomputing integrals since basis changed
+
+
+ Using spherical harmonics
+
+ Library entry H      S cc-pVTZ              selected for orbital group  1
+ Library entry H      P cc-pVTZ              selected for orbital group  1
+ Library entry H      D cc-pVTZ              selected for orbital group  1
+ Library entry N      S cc-pVTZ              selected for orbital group  2
+ Library entry N      P cc-pVTZ              selected for orbital group  2
+ Library entry N      D cc-pVTZ              selected for orbital group  2
+ Library entry N      F cc-pVTZ              selected for orbital group  2
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  1 of record 700
+
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  H       1.00   -2.585818081   -0.341996965   -0.024885803
+   2  H       1.00    1.592942747   -2.069078141    0.007498433
+   3  H       1.00    0.998338532    2.412560431    0.015149934
+   4  H       1.00   -3.668742644   -2.804412150   -1.573905646
+   5  H       1.00    4.264282274   -1.785522847    1.562302728
+   6  H       1.00   -0.607936233    4.580167003    1.550078089
+   7  N       7.00   -2.673714912   -2.268531175   -0.028062433
+   8  N       7.00    3.303316855   -1.178416204    0.021221624
+   9  N       7.00   -0.629596273    3.446416366    0.007024112
+  10  H       1.00    4.281951213   -1.772772864   -1.513704641
+  11  H       1.00   -0.584582997    4.592969897   -1.526042663
+  12  H       1.00   -3.690485833   -2.808202941    1.502226444
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-7  1.928540901  2-8  1.928431124  3-9  1.928495749  4-7  1.914909880  5-8  1.914931847
+     ( 1.020539895)     ( 1.020481804)     ( 1.020516002)     ( 1.013326669)     ( 1.013338294)
+
+  6- 9  1.914908677   7-12  1.914902809   8-10  1.914936993   9-11  1.914916429
+       ( 1.013326033)       ( 1.013322928)       ( 1.013341017)       ( 1.013330135)
+
+ Bond angles
+
+  1- 7- 4  107.73216325   1- 7-12  107.72315038   2- 8- 5  107.72108479   2- 8-10  107.71067298
+
+  3- 9- 6  107.72562755   3- 9-11  107.72905242   4- 7-12  106.87886132   5- 8-10  106.87023060
+
+  6- 9-11  106.87960451
+
+ NUCLEAR CHARGE:                   30
+ NUMBER OF PRIMITIVE AOS:         294
+ NUMBER OF SYMMETRY AOS:          270
+ NUMBER OF CONTRACTIONS:          216   (  216A   )
+ NUMBER OF INNER CORE ORBITALS:     0   (    0A   )
+ NUMBER OF OUTER CORE ORBITALS:     3   (    3A   )
+ NUMBER OF VALENCE ORBITALS:       21   (   21A   )
+
+
+ NUCLEAR REPULSION ENERGY   84.04420923
+
+
+ Eigenvalues of metric
+
+         1 0.148E-02 0.148E-02 0.151E-02 0.318E-02 0.318E-02 0.340E-02 0.348E-02 0.351E-02
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     715.391 MB (compressed) written to integral file ( 31.7%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:  274634766.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:  18  SEGMENT LENGTH:   15999762      RECORD LENGTH: 524288
+
+ Memory used in sort:      16.56 MW
+
+ SORT1 READ   281822501. AND WROTE   189466806. INTEGRALS IN    552 RECORDS. CPU TIME:     3.35 SEC, REAL TIME:     4.85 SEC

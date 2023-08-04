@@ -1,0 +1,19 @@
+
+
+
+geometry={
+           2
+  
+    H          0.07172858     -0.99088844      0.00000000
+    H         -0.67901788     -0.99088844      0.00000000
+
+}
+basis=cc-pVTZ
+angstrom
+
+
+hf; mp4
+
+
+
+{put,xml;noorbitals,nobasis}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<molpro xmlns="http://www.molpro.net/schema/molpro-output"
+  xmlns:xsd="http://www.w3.org/1999/XMLSchema"
+  xmlns:cml="http://www.xml-cml.org/schema"
+  xmlns:stm="http://www.xml-cml.org/schema"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <job>
+  <stm:metadataList>
+   <stm:metadata name="dc:date" content="2023-08-04T11:18:45+00:00"/>
+   <stm:metadata name="cmlm:insilico" content="Molpro"/>
+  </stm:metadataList>
+  <platform pid="955852">
+   <version major="2023" minor="1" SHA="9738a14712571edd23541b6d7c4f3a3d766f8287"
+     integer_bits="64" parallelism="serial">
+    2023.1
+    <date year="2023" month="8" day="4" hour="11" minute="18" second="45">
+     2023-08-04T11:18:45
+    </date>
+   </version>
+   <licence id="cardiff"/>
+   <parallel processes="1" nodes="1" all_processes="1" openmp="16"/>
+   <dimensions natom="400" nvalence="500" nvalence_pno="1000" nbasis="12000" nstate="100"
+     nsymm="16" nrec="1024" nprim="2" ncol="100"/>
+  </platform>
+  <jobstep command="HF-SCF" commandset="SCFPRO">
+   <cml:molecule>
+    <cml:symmetry pointGroup="C2">
+     <cml:transform3 title="generator" id="XY">
+      -1  0  0  0  0 -1  0  0  0  0  1  0  0  0  0  1
+     </cml:transform3>
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="C" x3="-1.5509383" y3="-0.3046782" z3="0.7974216"/>
+     <cml:atom id="a2" elementType="C" x3="-2.91736" y3="-0.2572608" z3="0.4520777"/>
+     <cml:atom id="a3" elementType="C" x3="-3.1153913" y3="0.50072E-01" z3="-0.8576504"/>
+     <cml:atom id="a4" elementType="S" x3="-1.6397192" y3="0.3001116" z3="-1.6704985"/>
+     <cml:atom id="a5" elementType="C" x3="-0.7216777" y3="-0.254094E-01" z3="-0.2541573"/>
+     <cml:atom id="a6" elementType="C" x3="0.7216777" y3="0.254094E-01" z3="-0.2541573"/>
+     <cml:atom id="a7" elementType="S" x3="1.6397192" y3="-0.3001116" z3="-1.6704985"/>
+     <cml:atom id="a8" elementType="C" x3="3.1153913" y3="-0.50072E-01" z3="-0.8576504"/>
+     <cml:atom id="a9" elementType="C" x3="2.91736" y3="0.2572608" z3="0.4520777"/>
+     <cml:atom id="a10" elementType="C" x3="1.5509383" y3="0.3046782" z3="0.7974216"/>
+     <cml:atom id="a11" elementType="H" x3="-1.182226" y3="-0.5588506" z3="1.7767451"/>
+     <cml:atom id="a12" elementType="H" x3="-3.7197698" y3="-0.4531472" z3="1.1427536"/>
+     <cml:atom id="a13" elementType="H" x3="-4.0457132" y3="0.1435962" z3="-1.3858704"/>
+     <cml:atom id="a14" elementType="H" x3="4.0457132" y3="-0.1435962" z3="-1.3858704"/>
+     <cml:atom id="a15" elementType="H" x3="3.7197698" y3="0.4531472" z3="1.1427536"/>
+     <cml:atom id="a16" elementType="H" x3="1.182226" y3="0.5588506" z3="1.7767451"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a3"/>
+     <cml:bond atomRefs2="a2 a4"/>
+     <cml:bond atomRefs2="a3 a5"/>
+     <cml:bond atomRefs2="a4 a6"/>
+     <cml:bond atomRefs2="a5 a7"/>
+     <cml:bond atomRefs2="a6 a8"/>
+     <cml:bond atomRefs2="a1 a9"/>
+     <cml:bond atomRefs2="a7 a9"/>
+     <cml:bond atomRefs2="a2 a10"/>
+     <cml:bond atomRefs2="a8 a10"/>
+     <cml:bond atomRefs2="a9 a10"/>
+     <cml:bond atomRefs2="a1 a11"/>
+     <cml:bond atomRefs2="a2 a12"/>
+     <cml:bond atomRefs2="a3 a13"/>
+     <cml:bond atomRefs2="a4 a14"/>
+     <cml:bond atomRefs2="a5 a15"/>
+     <cml:bond atomRefs2="a6 a16"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="-1101.60011680316"/>
+   <property name="One-electron energy" method="RHF" value="-2785.44757125927"/>
+   <property name="Two-electron energy" method="RHF" value="1043.89805355695"/>
+   <property name="Kinetic energy" method="RHF" value="1101.43783006302"/>
+   <property name="Nuclear energy" method="RHF" value="639.949400899159"/>
+   <property name="Virial quotient" method="RHF" value="-1.00014734080827"/>
+   <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+     stateNumber="1" value="0.0 0.0 0.505977734655943"/>
+   <time start="11:18:45" end="11:24:51" cpu="319.58" system="37.71" real="366.38"/>
+   <storage units="megabyte" memory="6144.0" sf="0.0" df="22519.77" eaf="0.0"/>
+   <summary overall_method="HF/cc-pVTZ"/>
+  </jobstep>
+  <jobstep command="CCSD(T)" commandset="CCSD">
